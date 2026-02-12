@@ -1,0 +1,83 @@
+.retour {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.retour a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.infos h2 {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.inverser {
+  padding: 0.6em 1.2em;
+  font-size: 0.9em;
+}
+
+.personnalisation {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: rgba(93, 64, 55, 0.5);
+  border-radius: 12px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #FFF;
+}
+
+input[type="number"] {
+  padding: 0.6em;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #8D6E63;
+  color: #FFF;
+  border: 2px solid #795548;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.BtnPlus, .btnMoins {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  width: 48%;
+}
+
+.boutons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.boutons .BtnPlus {
+  width: 48%;
+}
+
+.boutons .btnMoins {
+  width: 48%;
+}

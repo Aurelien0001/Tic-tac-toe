@@ -1,0 +1,71 @@
+.champCroix,
+.champRonds,
+.champPartie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.6em auto;
+  padding: 1.2em 1.8em;
+  background: rgba(109, 76, 65, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(215, 204, 200, 0.3);
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.champCroix:hover,
+.champRonds:hover,
+.champPartie:hover {
+  background: rgba(109, 76, 65, 0.8);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+  border: 1px solid rgba(215, 204, 200, 0.6);
+}
+
+.croix,
+.rond {
+  width: 2.2em;
+  height: 2.2em;
+  margin-right: 0.8em;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.champCroix p,
+.champRonds p,
+.champPartie p {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #EFEBE9;
+  margin: 0;
+}
+
+.score {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #D7CCC8;
+  margin-left: 0.4em;
+}
+
+@media (max-width: 768px) {
+  .champCroix,
+  .champRonds {
+    display: flex;
+    margin: 0.4em;
+    flex-shrink: 0;
+  }
+
+  .champPartie {
+    display: flex;
+    margin: 0.6em auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .croix,
+  .rond {
+    margin-right: 0.6em;
+    margin-bottom: 0;
+  }
+}

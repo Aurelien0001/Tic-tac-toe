@@ -1,0 +1,54 @@
+.tile{
+    background: linear-gradient(45deg , #E7D8C3, #C2A68C);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.svg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+}
+
+@keyframes tile-transition {
+    from {
+        transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+    }
+    to {
+        transform: translate3d(3px, 3px, 3px) rotate(10deg) scale(1.05);
+    }
+}
+
+.svg:hover{
+    animation: tile-transition 2.5s linear alternate infinite;
+}
+
+.svg.croix:hover{
+    filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.7));
+}
+
+.svg.rond:hover{
+    filter: drop-shadow(0 0 5px rgba(100, 100, 255, 0.7));
+}
+
+@media screen and (max-width: 768px) {
+    .svg{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+        position: absolute;
+        animation: tile-transition 2.5s linear alternate infinite;
+    }
+
+    .svg.croix{
+        filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.7));
+    }
+
+    .svg.rond{
+        filter: drop-shadow(0 0 5px rgba(100, 100, 255, 0.7));
+    }
+}
