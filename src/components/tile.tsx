@@ -4,6 +4,7 @@ import Rond from './../assets/rond.svg'
 import './../styles/tile.css'
 import type { TileStatut } from "../models/Tile"
 import type Game from "../pages/game"
+//import Canard from "./../assets/rubberDuck.svg"
 
 
 export class Tile extends Component<{statut: TileStatut, joueur: string, partie: Game}>{
@@ -41,6 +42,12 @@ export class Tile extends Component<{statut: TileStatut, joueur: string, partie:
                 </>)
             }
             else {
+                /*
+                this.symbole = (
+                <>
+                    <img src={Canard} alt="canard" className="svg rond" />
+                </>)*/
+                
                 this.symbole = (
                 <>
                     <img src={Rond} alt="rond" className="svg rond" />

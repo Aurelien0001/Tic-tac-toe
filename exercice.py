@@ -63,11 +63,25 @@ print("A man, a plan, a canal: Panama : "+str(palindromeChecker("A man, a plan, 
 print("tims : "+str(palindromeChecker("tims")))
 print("abab : "+str(palindromeChecker("abab")))
 
+print("radar : "+str(palindromeChecker("radar")))
+print("Level : "+str(palindromeChecker("Level")))
+print("No lemon, no melon : "+str(palindromeChecker("No lemon, no melon")))
+print("Was it a car or a cat I saw : "+str(palindromeChecker("Was it a car or a cat I saw")))
+print("bonjour : "+str(palindromeChecker("bonjour")))
+print("python : "+str(palindromeChecker("python")))
+print("palindrome : "+str(palindromeChecker("palindrome")))
+
 print(triRapide([42, 7, 19, 3, 88, 25, 61, 14, 9, 73, 30, 2, 55, 18, 90, 11, 47, 6, 28, 39]))
 print(triRapide([42, 7, 19, 3, 88, 25, 1]))
 print(triRapide([100, -5, 23, 0, 67, 2, 89]))
 print(triRapide([9, 4, 15, 8, 2, 30, 11]))
-
+print(triRapide([7, 3, 15, 2, 9, 11]))
+print(triRapide([42, -5, 0, 18, 3, 27, -1]))
+print(triRapide([100, 54, 76, 12, 89, 33]))
+print(triRapide([-10, -3, -25, 4, 8, 1]))
+print(triRapide([5, 5, 2, 9, 2, 8, 1]))
+print(triRapide([13, 99, 24, 67, 45, 2, 88]))
+print(triRapide([0, 1, -1, 2, -2, 3, -3]))
 
 
 

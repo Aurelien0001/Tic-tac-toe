@@ -1,0 +1,20 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Corps -->
+  <ellipse cx="150" cy="120" rx="90" ry="50" fill="#FFD84D" stroke="#E6B800" stroke-width="4"></ellipse>
+
+  <!-- Tête -->
+  <circle cx="210" cy="70" r="40" fill="#FFD84D" stroke="#E6B800" stroke-width="4"></circle>
+
+  <!-- Bec -->
+  <path d="M245 75 Q275 85 245 95 Q255 85 245 75" fill="#FF8C42" stroke="#E06A1A" stroke-width="3"></path>
+
+  <!-- Œil -->
+  <circle cx="220" cy="60" r="6" fill="black"></circle>
+  <circle cx="222" cy="58" r="2" fill="white"></circle>
+
+  <!-- Aile -->
+  <path d="M120 110 Q150 80 180 110 Q150 130 120 110" fill="#FFC933" stroke="#E6B800" stroke-width="3"></path>
+
+  <!-- Reflet plastique -->
+  <ellipse cx="130" cy="95" rx="25" ry="12" fill="white" opacity="0.3"></ellipse>
+</svg>
