@@ -28,7 +28,7 @@ Pour le tic-tac-toe, j'ai utilisé la framework React, que je n'avais jamais uti
 Pour commencer le projet, j'ai utlisé la commande `npm create vite@latest projectName`, qui permet d'avoir un squelette utilisable pour le développement.
 J'ai donc choisi les options React et TypeScript.
 Je n'ai pas utilisé de back-end comme fortement conseillé dans le sujet.
-J'ai utilisé l'IDE Visual Studio Code pour développer ce projet et parfois le très connu ChatGPT pour m'aider avec les techniques dont je n'avais pas connaissance.
+J'ai utilisé l'IDE Visual Studio Code pour développer ce projet et parfois le très connu ChatGPT pour m'aider avec les techniques dont je n'avais pas connaissance (des connaissances liées à React).
 Je n'ai pas utilisé de canard en plastique pour ce sujet même si j'aurais pu (dans `/src/assets/` et dans `/src/components/tile.tsx` en commentaires).
 
 ## What I learned
@@ -42,6 +42,7 @@ Plus précisemment, j'ai notamment appris comment utiliser les routers, comment 
 J'ai décidé d'effectuer le travail demander en Python, qui est un langage que vous nous demandiez de maitriser dans votre offre.
 Vous trouverez mes algorithmes python dans `/exercice.py` à la racine du projet.
 J'ai déjà fourni des données de tests suffisantes pour vérifier les algos les plus compliqués.
+(comme demandé, aucunes IA n'a été utillisée)
 
 ## What I think of the QuickSort
 
