@@ -27,14 +27,11 @@ Si vous le voulez, vous pouvez jouer au puissance 4, même si c'est un morpion.
 Pour le tic-tac-toe, j'ai utilisé la framework React, que je n'avais jamais utilisé auparavant.
 Pour commencer le projet, j'ai utlisé la commande `npm create vite@latest projectName`, qui permet d'avoir un squelette utilisable pour le développement.
 J'ai donc choisi les options React et TypeScript.
-Je n'ai pas utilisé de back-end comme fortement conseillé dans le sujet.
-J'ai utilisé l'IDE Visual Studio Code pour développer ce projet et parfois le très connu ChatGPT pour m'aider avec les techniques dont je n'avais pas connaissance (des connaissances liées à React).
-Je n'ai pas utilisé de canard en plastique pour ce sujet même si j'aurais pu (dans `/src/assets/` et dans `/src/components/tile.tsx` en commentaires).
+Surprise (dans `/src/assets/` et dans `/src/components/tile.tsx` en commentaires).
 
 ## What I learned
 
-Dans ce projet, j'ai appris un nouveau langage/framework: le React. 
-J'ai pu découvrir cette technologie et je vous en remercie.
+Dans ce projet, j'ai appris un nouveau langage/framework: le React.
 Plus précisemment, j'ai notamment appris comment utiliser les routers, comment relier les classes / fonctions entre elles et comment créer des variables réactives. Ce projet a été réellement enrichissant.
 
 # Exercise
